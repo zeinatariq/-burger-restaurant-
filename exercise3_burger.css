@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+
+nav{
+    overflow: auto;
+    padding:10px;
+    background-color: #3e3e3e;
+    border-bottom: 1px solid #aaa;
+
+}
+header {
+    background-color: #3e3e3e;
+    height: 100vh;
+}
+
+
+.part1{
+    float:left;
+    
+}
+
+.float-left{float:left;}
+
+.float-right{float:right;}
+
+
+.part1 img{
+    width:100%;
+}
+
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+nav .part2 li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+nav .part2 li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header .content h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+}
+
+header .content {
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+}
+
+
+header .content p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#About{
+    background-color: #73281a;
+}
+
+#About .part1 {
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#About .part1 h4 {
+        font-size: 15px;
+        letter-spacing: 1.5px;}
+
+
+ section { padding: 30px 0; }
+
+#About .part1 h2{
+        font-size: 50px;
+    }
+
+#About .part1 p {
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+#About .part1 p span {
+    background-color: #ff894f;
+    padding: 5px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#About .part2 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+section {
+        padding: 30px 0;
+    }
+
+#Menu {
+    background-color: #3e3e3e;
+    color: #fff;
+}  
+
+.container {
+        width: 90%;
+        margin: auto;
+    }
+
+#Menu .menu .burger {
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+#Menu .menu {
+    overflow: auto;
+}
+
+
+
+
+#Menu .menu .burger img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
+
+#Menu .menu .burger h3 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+#Menu .menu .burger ul {
+        list-style: square;
+        padding-left: 20px;
+        text-align: left;
+}
+    #Menu .menu .burger ul li {
+        width: 25%;
+    }
+
+#Book {
+    background-color: #73281a;
+    color: #fff;
+}
+
+section {
+        padding: 30px 0;
+}
+
+#Book h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#Book form {
+        max-width: 280px;
+        width: 90%;
+        margin: auto;
+    }
+
+#Book form .input {
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+#Book form .input label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#Book form .input input, #Book form .input textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#Book form .input label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#Book form .input input, #Book form .input textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#Book form .input input {
+    height: 40px;
+}
+
+#Book form .input textarea {
+    resize: none;
+}
+
+#Book form button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
